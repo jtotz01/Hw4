@@ -2,18 +2,14 @@
 
 <html>
 <head>
-    <title>Joe's Hotdog Stand</title>
+    <title>Joe's Hotdogs</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link
-    href="https://fonts.googleapis.com/css2?family=Ephesis&family=Lato:wght@300&display=swa 
-    p" rel="stylesheet">
 </head>
 
 <body>
-        <h1> Joe's Hotdog Stand</h1>
-        <img src="hotdog.png">
-        <h2 class="top">Menu</h2>
+        <h1> Joe's Hotdogs</h1>
+        <img src="stand.jpg">
+        <h2 class="top">Joe's Menu</h2>
         <div class = "menu">
             <p>Hotdog: $3.75</p>
             <p>Fries: $2.00</p>
@@ -29,7 +25,7 @@
             </div>
         </div>
         <div class = "column">
-            <h2>Price</h2>
+            <h2>Your Bill</h2>
             <div id="output">
                 <div id="textbox4"></div>
                 <div id="textbox5"></div>
@@ -67,15 +63,15 @@
 			       masstax =  Math.round((tax - discount)*Math.pow(10,2))/Math.pow(10,2);
 		      }
 		     else {
-			        document.getElementById("textbox5").innerHTML = "Sorry, there is no discount available.";
+			        document.getElementById("textbox5").innerHTML = "No discount available.";
 		     }
              
 		document.getElementById("textbox6").innerHTML = "Tax: $" + masstax.toFixed(2);
-		document.getElementById("textbox7").innerHTML = "Total (Including Tax): $" + tax.toFixed(2);		
+		document.getElementById("textbox7").innerHTML = "Final Total: $" + tax.toFixed(2);		
 	</script>
     
-    <div class="thankyou">
-		<h2>Order confirmed! Thank you for dining with us!</h2>
+    <div class="finalmsg">
+		<h2>We are working on your order! Come again soon!</h2>
 	</div>
 
 

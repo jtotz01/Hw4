@@ -5,7 +5,7 @@ body {
 
 h1 {
 	text-align: center;
-	font-family: 'Ephesis', cursive;
+	font-family: 'Apple Chancery', cursive;
 	font-size: 100px;
 }
 
@@ -17,7 +17,7 @@ img {
 }
 
 .menu {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Optima', sans-serif;
 	text-align: center; 
 }
 
@@ -25,7 +25,7 @@ img {
 h2 {
 	margin-right: 50px;
 	margin-left: 50px; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Optima', sans-serif;
 }
 
 .top {
@@ -46,19 +46,19 @@ h2 {
 
 
 #output {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Optima', sans-serif;
 	margin-top: 20px; 
 	margin-bottom: 20px;
 }
 
 #textbox7 {
     font-weight: bold; */
-    font-family: 'Ephesis', cursive;
+    font-family: 'Apple Chancery', cursive;
     text-decoration-line: underline;
 }
 
 .finalmsg h2 {
 	text-align: center;
-	font-family: 'Ephesis', cursive;
+	font-family: 'Apple Chancery', cursive;
 	padding-bottom: 20px;
 }

@@ -19,18 +19,18 @@
         <div class="column">
             <h2>Quanitity</h2>
             <div id="output">
-                <div id="textbox1"></div>
-                <div id="textbox2"></div>
-                <div id="textbox3"></div>
+                <div id="first"></div>
+                <div id="second"></div>
+                <div id="third"></div>
             </div>
         </div>
         <div class = "column">
             <h2>Your Bill</h2>
             <div id="output">
-                <div id="textbox4"></div>
-                <div id="textbox5"></div>
-                <div id="textbox6"></div>
-                <div id="textbox7"></div>
+                <div id="fourth"></div>
+                <div id="fifth"></div>
+                <div id="sixth"></div>
+                <div id="seventh"></div>
             </div>
         </div>
         
@@ -53,21 +53,21 @@
 		     masstax = Math.round((tax - new_order) * Math.pow(10,2))/Math.pow(10,2);
 
 
-		     document.getElementById("textbox1").innerHTML = "Hotdog(s): " + hotdog;
-		     document.getElementById("textbox2").innerHTML = "Fries: " + fries;
-		     document.getElementById("textbox3").innerHTML = "Drink(s): " + drink;
+		     document.getElementById("first").innerHTML = "Hotdog(s): " + hotdog;
+		     document.getElementById("second").innerHTML = "Fries: " + fries;
+		     document.getElementById("third").innerHTML = "Drink(s): " + drink;
 
-		     document.getElementById("textbox4").innerHTML = "Subtotal: $" + new_order.toFixed(2);
+		     document.getElementById("fourth").innerHTML = "Subtotal: $" + new_order.toFixed(2);
 		     if (new_order >= 20) {
-			       document.getElementById("textbox5").innerHTML = "Subtotal with discount:  $" + discount.toFixed(2);
+			       document.getElementById("fifth").innerHTML = "Subtotal with discount:  $" + discount.toFixed(2);
 			       masstax =  Math.round((tax - discount)*Math.pow(10,2))/Math.pow(10,2);
 		      }
 		     else {
-			        document.getElementById("textbox5").innerHTML = "No discount available.";
+			        document.getElementById("fifth").innerHTML = "No discount available.";
 		     }
              
-		document.getElementById("textbox6").innerHTML = "Tax: $" + masstax.toFixed(2);
-		document.getElementById("textbox7").innerHTML = "Final Total: $" + tax.toFixed(2);		
+		document.getElementById("sixth").innerHTML = "Tax: $" + masstax.toFixed(2);
+		document.getElementById("seventh").innerHTML = "Final Total: $" + tax.toFixed(2);		
 	</script>
     
     <div class="finalmsg">
